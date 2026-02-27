@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>AI 趋势雷达订阅 v1.1</title>
+    <dateCreated>2026-02-26</dateCreated>
+    <ownerName>OpenClaw</ownerName>
+  </head>
+  <body>
+    <!-- 科技新闻 -->
+    <outline text="科技新闻" title="科技新闻">
+      <outline type="rss" text="TechCrunch" title="TechCrunch" xmlUrl="https://techcrunch.com/feed/" htmlUrl="https://techcrunch.com"/>
+      <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com"/>
+      <outline type="rss" text="The Verge" title="The Verge" xmlUrl="https://www.theverge.com/rss/index.xml" htmlUrl="https://www.theverge.com"/>
+      <outline type="rss" text="Ars Technica" title="Ars Technica" xmlUrl="https://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com"/>
+      <outline type="rss" text="MIT Tech Review" title="MIT Tech Review" xmlUrl="https://www.technologyreview.com/feed/" htmlUrl="https://www.technologyreview.com"/>
+      <outline type="rss" text="Wired" title="Wired" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com"/>
+    </outline>
+
+    <!-- 中文源 -->
+    <outline text="中文源" title="中文源">
+      <outline type="rss" text="机器之心" title="机器之心" xmlUrl="https://www.jiqizhixin.com/rss" htmlUrl="https://www.jiqizhixin.com"/>
+    </outline>
+
+    <!-- 论文 -->
+    <outline text="论文" title="论文">
+      <outline type="rss" text="arXiv CS.AI" title="arXiv CS.AI" xmlUrl="https://export.arxiv.org/rss/cs.AI" htmlUrl="https://arxiv.org/list/cs.AI/recent"/>
+      <outline type="rss" text="arXiv CS.LG" title="arXiv CS.LG" xmlUrl="https://export.arxiv.org/rss/cs.LG" htmlUrl="https://arxiv.org/list/cs.LG/recent"/>
+    </outline>
+
+    <!-- AI 大佬博客 -->
+    <outline text="AI 博客" title="AI 博客">
+      <outline type="rss" text="Simon Willison" title="Simon Willison" xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net"/>
+      <outline type="rss" text="Lil'Log (Lilian Weng)" title="Lil'Log" xmlUrl="https://lilianweng.github.io/index.xml" htmlUrl="https://lilianweng.github.io"/>
+      <outline type="rss" text="Jay Alammar" title="Jay Alammar" xmlUrl="https://jalammar.github.io/feed.xml" htmlUrl="https://jalammar.github.io"/>
+    </outline>
+
+    <!-- YouTube -->
+    <outline text="YouTube" title="YouTube">
+      <outline type="rss" text="Andrej Karpathy" title="Andrej Karpathy" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ" htmlUrl="https://www.youtube.com/@andaboron"/>
+      <outline type="rss" text="Lex Fridman" title="Lex Fridman" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA" htmlUrl="https://www.youtube.com/@lexfridman"/>
+    </outline>
+
+    <!-- GitHub Releases (需代理) -->
+    <outline text="GitHub Releases" title="GitHub Releases">
+      <outline type="rss" text="LangChain" title="LangChain" xmlUrl="https://github.com/langchain-ai/langchain/releases.atom" htmlUrl="https://github.com/langchain-ai/langchain"/>
+      <outline type="rss" text="LlamaIndex" title="LlamaIndex" xmlUrl="https://github.com/run-llama/llama_index/releases.atom" htmlUrl="https://github.com/run-llama/llama_index"/>
+      <outline type="rss" text="Ollama" title="Ollama" xmlUrl="https://github.com/ollama/ollama/releases.atom" htmlUrl="https://github.com/ollama/ollama"/>
+      <outline type="rss" text="vLLM" title="vLLM" xmlUrl="https://github.com/vllm-project/vllm/releases.atom" htmlUrl="https://github.com/vllm-project/vllm"/>
+      <outline type="rss" text="ComfyUI" title="ComfyUI" xmlUrl="https://github.com/comfyanonymous/ComfyUI/releases.atom" htmlUrl="https://github.com/comfyanonymous/ComfyUI"/>
+      <outline type="rss" text="Dify" title="Dify" xmlUrl="https://github.com/langgenius/dify/releases.atom" htmlUrl="https://github.com/langgenius/dify"/>
+      <outline type="rss" text="Open WebUI" title="Open WebUI" xmlUrl="https://github.com/open-webui/open-webui/releases.atom" htmlUrl="https://github.com/open-webui/open-webui"/>
+      <outline type="rss" text="AutoGen" title="AutoGen" xmlUrl="https://github.com/microsoft/autogen/releases.atom" htmlUrl="https://github.com/microsoft/autogen"/>
+      <outline type="rss" text="CrewAI" title="CrewAI" xmlUrl="https://github.com/joaomdmoura/crewAI/releases.atom" htmlUrl="https://github.com/joaomdmoura/crewai"/>
+      <outline type="rss" text="OpenClaw" title="OpenClaw" xmlUrl="https://github.com/openclaw/openclaw/releases.atom" htmlUrl="https://github.com/openclaw/openclaw"/>
+    </outline>
+  </body>
+</opml>

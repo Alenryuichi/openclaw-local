@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  freshrss:
+    image: freshrss/freshrss:latest
+    container_name: freshrss
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - ./freshrss/data:/var/www/FreshRSS/data
+      - ./freshrss/extensions:/var/www/FreshRSS/extensions
+    environment:
+      # 时区
+      - TZ=Asia/Shanghai
+      # 自动刷新间隔 (分钟)
+      - CRON_MIN=*/30
+      # 代理配置 (用于 GitHub 等被墙源)
+      - HTTP_PROXY=http://host.docker.internal:7897
+      - HTTPS_PROXY=http://host.docker.internal:7897
+      # 不需要代理的域名
+      - NO_PROXY=localhost,127.0.0.1,jiqizhixin.com,techcrunch.com,hnrss.org,theverge.com,arstechnica.com,technologyreview.com,wired.com,simonwillison.net,arxiv.org,lilianweng.github.io,jalammar.github.io,youtube.com
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/i/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - rss-network
+
+networks:
+  rss-network:
+    driver: bridge
