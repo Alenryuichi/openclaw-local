@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "planning-with-files": {
+      "version": "1.2.0",
+      "installedAt": 1772083045007
+    },
+    "architecture-designer": {
+      "version": "0.1.0",
+      "installedAt": 1772083060180
+    },
+    "task-development-workflow": {
+      "version": "1.0.0",
+      "installedAt": 1772083076025
+    },
+    "test-patterns": {
+      "version": "1.0.0",
+      "installedAt": 1772083096313
+    },
+    "documentation": {
+      "version": "1.0.0",
+      "installedAt": 1772083109777
+    },
+    "docker": {
+      "version": "1.0.3",
+      "installedAt": 1772083123848
+    },
+    "plan": {
+      "version": "1.0.0",
+      "installedAt": 1772083142838
+    },
+    "code-review": {
+      "version": "1.0.0",
+      "installedAt": 1772083164703
+    },
+    "clean-code": {
+      "version": "1.0.0",
+      "installedAt": 1772083200640
+    },
+    "first-principles-decomposer": {
+      "version": "1.0.0",
+      "installedAt": 1772083217260
+    }
+  }
+}
