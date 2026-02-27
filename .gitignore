@@ -43,3 +43,7 @@ docker-compose.override.yml
 # Build outputs
 dist/
 build/
+
+# FreshRSS 数据 (不需要版本控制)
+rss-deployment/freshrss/data/
+rss-deployment/freshrss/extensions/
